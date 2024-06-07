@@ -1,0 +1,75 @@
+body {
+  font-family: sans-serif;
+  background-color: #f4f4f4;
+  display: flex; /* Center the container */
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Make the container take up full viewport height */
+}
+
+.container {
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+#checklist {
+  list-style: none;
+  padding: 0;
+}
+
+.step {
+  margin-bottom: 20px;
+}
+
+.step-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.question {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.question label {
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.question input[type="text"] {
+  flex-grow: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#exportBtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+#exportBtn:hover {
+  background-color: #45a049;
+}
+.question textarea { /* Add styles for the textarea */
+    width: 100%; 
+    min-height: 80px; 
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical; /* Allow vertical resizing */
+  }
